@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(193, 241, 241);
+}
+
+.border{
+text-align: center;
+position:relative ;
+background-color: white;
+border: 5px solid black;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+width: 450px;
+height: 700px;
+top: 100px;
+left: 450px;
+}
+
+
+
+

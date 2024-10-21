@@ -1,0 +1,31 @@
+/*estilizando a página */
+body{
+    background-color: rgb(106, 106, 106);/*mudando cof de fundo*/ 
+    color: rgb(255, 255, 255);
+    
+}
+/*ESTILIZANDO o cabeçalho*/
+header{background-color: rgb(176, 147, 208);/* cor de fundo do cabeçalho*/
+    color: rgb(0, 0, 0);/*cor das letrasa */
+    padding: 15px;/*preenchimento do cabeçalho */
+    text-align: center;/*alinhamento no centro */
+  font-family:  Helvetica, sans-serif;/* tipo de letra */
+
+}
+
+article{
+    background-color: rgb(255, 255, 255);
+    color: rgb(125, 61, 194);
+    font-size: 20px;
+
+}
+.paragrafo1{
+    color: rgb(160, 74, 194);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ text-indent: 25px;
+}
+.paragrafo2{
+    color:khaki;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 25px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario </title>
+    <link rel="icon"href=""type="image/png">
+    </head>
+    <body style="background-color: rgb(156, 156, 156); color: rgb(0, 0, 0); font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">   
+        <!--Início de formulario com método POST-->
+        <center>
+        <h1> cadastre-se</h1>
+    <form action="/submit" method="POST"></form>
+    <label for="name">Nome:</label>
+    <input type="text" id="Name" Name="Name"><br>
+    <!--Campo de texto simples para o nome-->
+        <!--Campos principais de entrada-->
+        <!--Campo de e-mail com placehol orientando o formato de e-mail esperado-->
+    <label for="Email">Email:</label>   
+    <input type="email" id="email" name="email" placeholder="coloque seu e-mail ai mano"> <br>
+   <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha"> <br> <!-- campo para entrada de senha, texto oculto por segurança-->
+    <!--seleção dee genero  com opções (dropdown)-->
+    <label for="genero">Gênero:</label><br>
+    <select id="geenero" name="genero"> <!--Lista de segurança para o usuário escolher o gênero-->
+        <option value="masculino">Masculino</option><br><!--opção masculina-->
+        <option value="feminino">Feminino</option><br><!--opção feminina-->
+        <option value="outro">Outro</option><br><!--opção outro--> 
+     <label for="idade"> Nascimento</label>
+     <input type="date" id="data" name="data"><br>
+</select><br>
+<!-- Botão para envio do formulário--> 
+  <img src="https://i.pinimg.com/originals/ff/76/00/ff760069f66cc40d0a81f9731b723863.gif" width="300px" type="img/gif"><br>
+   <button type="submit">Enviar</button><br><!--Botão que envia os dados preenchidos no formulário--> 
+  <button onclick="window.location.href='estruturasemantica .html';">Entrar no Site</button>
+</center>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{font-family: Georgia, 'Times New Roman', Times, serif;/*Tipo de fonte*/
+background-color: rgba(152, 173, 241, 0.884); /*Cor de fundo*/
+ 
+}
+header{background-color: khaki;
+padding: 10px;
+text-align: center;
+}
+h1{
+    color:rgba(173, 187, 236, 0.884) ;
+    text-align: center;
+}
+article{
+    background-color: rgb(240, 230, 140);
+    padding: 10px;
+}
+button{
+    background-color: brown;
+    color: wheat;
+
+}
